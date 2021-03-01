@@ -129,15 +129,14 @@ USE_TZ = True
 
 if DEBUG is True:
     STATIC_URL = '/static/'
+    STATIC_ROOT = '/static/'
     STATICFILES_DIRS = [
-        Path(BASE_DIR, "/static/")
+    Path(BASE_DIR, "static")
     ]
     MEDIA_URL = '/media/'
     MEDIA_ROOT = Path(BASE_DIR, 'media')
 else:
-    STATIC_ROOT = '/var/www/venv/RestaurantGallery/pizzaproject/static/'
-    STATICFILES_DIRS = [
-        Path(BASE_DIR, '/var/www/static/')
-    ]
+    STATIC_URL = '/static/'
+    STATIC_ROOT = '/var/www/venv/BookProject/pizzaproject/static/'
     MEDIA_URL = '/media/'
-    MEDIA_ROOT = Path(BASE_DIR, '/var/www/venv/RestaurantGallery/pizzaproject/media/')
+    MEDIA_ROOT = Path(BASE_DIR, '/var/www/venv/BookProject/pizzaproject/media/')
