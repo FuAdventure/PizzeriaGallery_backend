@@ -137,6 +137,6 @@ if DEBUG is True:
     MEDIA_ROOT = Path(BASE_DIR, 'media')
 else:
     STATIC_URL = '/static/'
-    STATIC_ROOT = '/var/www/venv/BookProject/pizzaproject/static/'
+    STATIC_ROOT = '/var/www/venv/RestaurantGallery/pizzaproject/static/'
     MEDIA_URL = '/media/'
-    MEDIA_ROOT = Path(BASE_DIR, '/var/www/venv/BookProject/pizzaproject/media/')
+    MEDIA_ROOT = Path(BASE_DIR, '/var/www/venv/RestaurantGallery/pizzaproject/media/')
