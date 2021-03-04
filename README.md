@@ -13,4 +13,4 @@ API can be accessed at base_url = http://localhost:8000/api. A deployed version 
 - Update an existing record: base_url/update/id/
 - delete an existing record: base_url/delete/id/
 - Create a new record: base_url/create/
-- Administration portal: http://localhost:8000/admin (You need create a superuser to access administration operations, use python manage.py createsuperuser)
+- Administration portal: http://localhost:8000/admin (You need create a superuser to access administration operations, run `python manage.py createsuperuser`)
