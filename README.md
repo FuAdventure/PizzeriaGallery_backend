@@ -9,7 +9,7 @@ This server is powered by Django3 and SQLite.
 
 API can be accessed at base_url = http://localhost:8000/api. A deployed version can be view [here](http://www.pizzavspizza.com/api/). 
 - List view of Pizzeria records in the SQLite database: base_url
-- Detail view of a record with it id number: base_url/id/
+- Detail view of a record with its id number: base_url/id/
 - Update an existing record: base_url/update/id/
 - delete an existing record: base_url/delete/id/
 - Create a new record: base_url/create/
